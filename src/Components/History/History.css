@@ -1,0 +1,59 @@
+.history-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 150px;
+    padding-top: 10rem !important;
+}
+.history-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.064) ;
+}
+.music-info{
+    display: flex;
+    height: auto;
+}
+.music-cover{
+    width: 112px;
+    height: 112px;
+}
+.music-cover img{
+    width: 100%;
+    border-radius: 10px;
+}
+.music-description{
+    display: flex;
+    flex-direction: column;
+}
+.nmusic-name , .music-singger , p{
+    margin: 0.2rem 1rem;
+}
+.nmusic-name{
+    font-weight: 600;
+}
+.music-description a{
+    text-decoration: none;
+    color: #000;
+}
+.music-singger , p{
+    opacity: 0.6;
+}
+.music-icons{
+    width: 35%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.3rem;
+    opacity: 0.6;
+    cursor: pointer;
+
+}
+.music-icons span{
+    margin-left: 8rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+}

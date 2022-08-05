@@ -1,0 +1,14 @@
+.error-login-content{
+    width: 50%;
+    margin: 5rem auto;
+    text-align: center;
+}
+.error-login-content img{
+    width: 350px;
+    height: 350px;
+}
+.error-login-content h3{
+    font-weight: 700;
+    margin-bottom: 1rem !important;
+    font-size: 1.3rem;
+}

@@ -1,0 +1,66 @@
+/*--------------- OTHER --------------------- */
+
+.section-header-child{
+  padding: 1rem !important;
+  font-size: larger !important;
+  font-weight: 900 !important;
+}
+
+.main-image {
+  padding-top: 3rem;
+  text-align: center;
+}
+.main-image img {
+  border-radius: 10px;
+  width: 93%;
+  transition: all 0.1s linear;
+  cursor: pointer;
+}
+.main-image img:hover {
+  width: 95%;
+}
+
+/*--------------- NEW SONGS --------------------- */
+
+.new-songs-header {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.new-songs-header h2 {
+  font-size: larger;
+  font-weight: 900;
+}
+.new-songs-header .view-more {
+  text-decoration: none;
+  width: 13%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #010101;
+  font-weight: 700;
+}
+.view-more span {
+  font-size: 0.8rem;
+}
+
+/*--------------- RECENT ALBUMS ------ & ------ WEEK TRENDING ARTIST --------------------- */
+
+
+.recent-albums-content , .Week-trending-artists-content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  margin: 0 auto 1rem;
+  width: 95%;
+}
+
+/*--------------- MOOD CONTENT -------------- */
+
+.mood-content{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+}

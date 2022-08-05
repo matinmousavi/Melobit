@@ -1,0 +1,11 @@
+.search-section{
+    height: 80vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.search-note{
+    opacity: 1;
+    font-weight: 400;
+}

@@ -1,0 +1,16 @@
+.recent-album-cart{
+    width: 24.4%;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.recent-album-cart img{
+    width: 100%;
+    border-radius: 13px;
+}
+.album-cart-description{
+    margin-top: 1rem;
+}
+.music-name{
+    text-decoration: none;
+    color: #010101;
+}

@@ -1,0 +1,15 @@
+.mood-section-link{
+    color: #fff;
+    text-decoration: none;
+    width: 24%;
+    height: 9.5rem;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.mood-section-link:hover{
+    color: #fff;
+}

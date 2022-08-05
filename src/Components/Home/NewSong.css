@@ -1,0 +1,31 @@
+.new-songs-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto 2rem;
+    width: 95%;
+}
+.new-song-cart{
+    width: 24.4%;
+    padding: 0.5rem 0;
+    text-align: center;
+
+}
+.new-song-cart img{
+    width: 100%;
+    border-radius: 13px;
+}
+.song-cart-description{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+.music-name , .singger{
+    padding: 0.3rem 0;
+    text-decoration: none;
+    color: #010101;
+}
+.singger{
+    opacity: 0.6;
+    font-size: 0.9rem;
+}

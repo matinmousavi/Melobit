@@ -1,0 +1,19 @@
+.today-trending-cart{
+    width: 100%;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.today-trending-cart img{
+    width: 100%;
+    border-radius: 13px;
+}
+.today-trending-description{
+    margin-top: 1rem;
+}
+.music-name {
+    text-decoration: none;
+    color: #010101;
+}
+.singger-name ,.play-count{
+    font-size: 0.8rem;
+}

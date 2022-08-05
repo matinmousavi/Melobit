@@ -1,0 +1,31 @@
+.trending-artist-cart{
+    width: 24.4%;
+    padding: 0.5rem 0;
+    text-align: center;
+}
+.trending-artist-cart img{
+    width: 100%;
+    border-radius: 50%;
+}
+.trending-artist-cart-description{
+    margin-top: 1rem;
+}
+.music-name{
+    font-size: medium;
+    font-weight: 500;
+    color: rgba(0,0,0,0.74);
+}
+.singger-name{
+    opacity: 0.6;
+    font-size: 1rem;
+    padding: 0.3rem 0;
+    text-decoration: none;
+    color: #010101;
+}
+.play-count{
+    opacity: 0.6;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+    text-decoration: none;
+    color: #010101;
+}

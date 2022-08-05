@@ -1,0 +1,77 @@
+.nav-bar{
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+.nav-logo .nav-list .nav-search{
+    height: 42px;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+
+/*--------------- LOGO OF HEADER --------------------- */
+
+.nav-logo{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-logo img{
+    width: 40px;
+    height: 40px;
+}
+.navlogo-title{
+    font-size: 1.2rem;
+}
+.navlogo-title h6{
+    margin: 0;
+    font-weight: 900;
+    color: #00b1f6;
+}
+
+/*--------------- LIST OF HEADER --------------------- */
+
+.nav-list-ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.navlist-link{
+    text-decoration: none;
+    color: #010101;
+    font-size: 0.8rem;
+    font-weight: bolder;
+    opacity: 0.9;
+    transition: 0.15s all linear;
+}
+.navlist-link:hover{
+    color: #00b1f6;
+
+}
+.actived-link{
+    border-bottom: 3px solid #00b1f6;
+    padding: 1rem 0.8rem;
+}
+/*--------------- SEARCH OF HEADER --------------------- */
+/* 
+.nav-search{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.nav-search{
+    color: #010101;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    opacity: 0.7;
+}
+.nav-search:hover{
+    background-color: rgba(221, 221, 221, 0.641);
+    color: #010101;
+    border-radius: 50%;
+    padding: 0.3rem;
+}

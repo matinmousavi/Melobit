@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Melobit/static/css/main.f94b2478.css",
-    "main.js": "/Melobit/static/js/main.feeee60b.js",
+    "main.js": "/Melobit/static/js/main.b819bda6.js",
     "static/js/787.a9627493.chunk.js": "/Melobit/static/js/787.a9627493.chunk.js",
     "static/media/roboto-latin-500.020c97dc.woff2": "/Melobit/static/media/roboto-latin-500.020c97dc.f5b74d7ffcdf85b9dd60.woff2",
     "static/media/roboto-latin-700.2735a3a6.woff2": "/Melobit/static/media/roboto-latin-700.2735a3a6.c18ee39fb002ad58b6dc.woff2",
@@ -10,11 +10,11 @@
     "static/media/TelegramLogo.svg": "/Melobit/static/media/TelegramLogo.3ea9a43db2bfef92cbbaadbaffc5f243.svg",
     "index.html": "/Melobit/index.html",
     "main.f94b2478.css.map": "/Melobit/static/css/main.f94b2478.css.map",
-    "main.feeee60b.js.map": "/Melobit/static/js/main.feeee60b.js.map",
+    "main.b819bda6.js.map": "/Melobit/static/js/main.b819bda6.js.map",
     "787.a9627493.chunk.js.map": "/Melobit/static/js/787.a9627493.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f94b2478.css",
-    "static/js/main.feeee60b.js"
+    "static/js/main.b819bda6.js"
   ]
 }

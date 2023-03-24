@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Row, Col } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 import { Link, NavLink } from "react-router-dom";
 import {AiOutlineSearch} from 'react-icons/ai';
 

@@ -13,7 +13,7 @@ export default function MoodSection() {
         return (
           <Link
             key={mood.id}
-            to="/mood"
+            to="/Melobit/mood"
             className="mood-section-link"
             style={{ background: `${mood.backGround}` }}
           >

@@ -1,69 +1,69 @@
 {
   "singgerPics": [
-    { "id": 1, "src": "Melobit/images/Artist/aron-afshar/1.webp" },
+    { "id": 1, "src": "/Melobit/images/Artist/aron-afshar/1.webp" },
     {
       "id": 2,
-      "src": "Melobit/images/Artist/naser-zeynali/slider-Naser-Zeynali-Khodeto-Beresoon.webp"
+      "src": "/Melobit/images/Artist/naser-zeynali/slider-Naser-Zeynali-Khodeto-Beresoon.webp"
     },
     {
       "id": 3,
-      "src": "Melobit/images/Artist/ehsan-khaje-amiri/slider-Ehsan-Khajehamiri-Dar-Kenare-Parvaneha.webp"
+      "src": "/Melobit/images/Artist/ehsan-khaje-amiri/slider-Ehsan-Khajehamiri-Dar-Kenare-Parvaneha.webp"
     }
   ],
 
   "songInformations": [
     {
       "id": 1,
-      "src": "Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
+      "src": "/Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
       "musicName": "Nahayatan (Deli)",
       "singger": "Hamid Hiraad",
       "subLink": "hamid-hiraad/nahayatan-Deli"
     },
     {
       "id": 2,
-      "src": "Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
+      "src": "/Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
       "musicName": "Esmet Chiye",
       "singger": "Masoud Sadeghloo",
       "subLink": "masoud-sadeghloo/esmet-chiye"
     },
     {
       "id": 3,
-      "src": "Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
+      "src": "/Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
       "musicName": "Nemishnavam Harfato",
       "singger": "Reza Shiri",
       "subLink": "reza-shiri/nemishnavam-harfato"
     },
     {
       "id": 4,
-      "src": "Melobit/images/Artist/babak-mafi/Delneshin.webp",
+      "src": "/Melobit/images/Artist/babak-mafi/Delneshin.webp",
       "musicName": "Delneshin",
       "singger": "Babak Mafi",
       "subLink": "babak-mafi/delneshin"
     },
     {
       "id": 5,
-      "src": "Melobit/images/Artist/octave/Beza-Beram.webp",
+      "src": "/Melobit/images/Artist/octave/Beza-Beram.webp",
       "musicName": "Beza Beram",
       "singger": "Octave",
       "subLink": "octave/beza-beram"
     },
     {
       "id": 6,
-      "src": "Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
+      "src": "/Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
       "musicName": "Soltane Ghalbe Man",
       "singger": "Ehaam",
       "subLink": "ehaam/soltane-ghalbe-man"
     },
     {
       "id": 7,
-      "src": "Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
+      "src": "/Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
       "musicName": "Setare Baroon",
       "singger": "Ali Montazeri",
       "subLink": "ali-montazeri/setare-baroon"
     },
     {
       "id": 8,
-      "src": "Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
+      "src": "/Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
       "musicName": "Delam Darya Mikhad",
       "singger": "Mohammad Lotfi",
       "subLink": "mohammad-lotfi/delam-darya-mikhad"
@@ -73,25 +73,25 @@
   "albumInformations": [
     {
       "id": 1,
-      "src": "Melobit/images/Albums/ZHU-Wet.webp",
+      "src": "/Melobit/images/Albums/ZHU-Wet.webp",
       "albumName": "Musical Chairs Mixtape, Vol. 1",
       "subLink": "musical-chairs-mixtape-vol.-1/ODQ3ODY"
     },
     {
       "id": 2,
-      "src": "Melobit/images/Albums/Ronnie-Dunn-Good-Bartender.webp",
+      "src": "/Melobit/images/Albums/Ronnie-Dunn-Good-Bartender.webp",
       "albumName": "100 Proof Neon",
       "subLink": "100-proof-neon/cWRyVzY"
     },
     {
       "id": 3,
-      "src": "Melobit/images/Albums/Wiz-Khalifa-Memory-Lane.webp",
+      "src": "/Melobit/images/Albums/Wiz-Khalifa-Memory-Lane.webp",
       "albumName": "Multiverse",
       "subLink": "multiverse/RW0yRUc"
     },
     {
       "id": 4,
-      "src": "Melobit/images/Albums/Hayley-Kiyoko-panorama.webp",
+      "src": "/Melobit/images/Albums/Hayley-Kiyoko-panorama.webp",
       "albumName": "PANORAMA",
       "subLink": "panorama/dlZnV2c"
     }
@@ -100,25 +100,25 @@
   "artistInformations": [
     {
       "id": 1,
-      "src": "Melobit/images/Artist/macan-band/artist-macan-band.webp",
+      "src": "/Melobit/images/Artist/macan-band/artist-macan-band.webp",
       "singger": "Macan Band",
       "subLink": "macan-band/Mkc4bFo"
     },
     {
       "id": 2,
-      "src": "Melobit/images/Artist/amir-tataloo/artist-amir-tataloo.webp",
+      "src": "/Melobit/images/Artist/amir-tataloo/artist-amir-tataloo.webp",
       "singger": "Amir Tataloo",
       "subLink": "amir-tataloo/a0ds"
     },
     {
       "id": 3,
-      "src": "Melobit/images/Artist/garsha-rezaei/artist-garsha-rezaei.webp",
+      "src": "/Melobit/images/Artist/garsha-rezaei/artist-garsha-rezaei.webp",
       "singger": "Garsha Rezaei",
       "subLink": "garsha-rezaei/ZFBlMA"
     },
     {
       "id": 4,
-      "src": "Melobit/images/Artist/hamid-sefat/artist-hamid-sefat.webp",
+      "src": "/Melobit/images/Artist/hamid-sefat/artist-hamid-sefat.webp",
       "singger": "Hamid Sefat",
       "subLink": "hamid-sefat/dkxtbQ"
     }
@@ -127,7 +127,7 @@
   "todayTrending": [
     {
       "id": 1,
-      "src": "Melobit/images/Artist/hosein-tohi/Tohi-Baby-Oonam-Dooste-Mane-(Ft-Amir-Tataloo-Reza-Pishro).webp",
+      "src": "/Melobit/images/Artist/hosein-tohi/Tohi-Baby-Oonam-Dooste-Mane-(Ft-Amir-Tataloo-Reza-Pishro).webp",
       "musicName": "Baby Oonam Dooste Mane (Ft Amir Tataloo & Reza Pishro)",
       "playCount": "497k ",
       "singger": "Tohi / Tataloo / Pishro",
@@ -135,7 +135,7 @@
     },
     {
       "id": 2,
-      "src": "Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
+      "src": "/Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
       "musicName": "Esmet Chiye",
       "playCount": "1.5M",
       "singger": "Masoud Sadeghloo",
@@ -143,7 +143,7 @@
     },
     {
       "id": 3,
-      "src": "Melobit/images/Artist/baravan-band/Barvan-Band-Tarkibe-Saami.webp",
+      "src": "/Melobit/images/Artist/baravan-band/Barvan-Band-Tarkibe-Saami.webp",
       "musicName": "Tarkibe Saami",
       "playCount": "780.3K",
       "singger": "Barvan Band",
@@ -151,7 +151,7 @@
     },
     {
       "id": 4,
-      "src": "Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
+      "src": "/Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
       "musicName": "Nahayatan (Deli)",
       "subLink": "hamid-hiraad/nahayatan-Deli",
       "playCount": "753.2K",
@@ -159,7 +159,7 @@
     },
     {
       "id": 5,
-      "src": "Melobit/images/Artist/masoud-sadeghloo/Masoud-Sadeghloo-Seil.webp",
+      "src": "/Melobit/images/Artist/masoud-sadeghloo/Masoud-Sadeghloo-Seil.webp",
       "musicName": "Seil",
       "playCount": "<200",
       "singger": "Masoud Sadeghloo",
@@ -167,7 +167,7 @@
     },
     {
       "id": 6,
-      "src": "Melobit/images/Artist/bijan-yaar/Bijan-Yaar-Gheyrati.webp",
+      "src": "/Melobit/images/Artist/bijan-yaar/Bijan-Yaar-Gheyrati.webp",
       "musicName": "Gheyrati",
       "playCount": "897.9K",
       "singger": "Bijan Yaar",
@@ -175,7 +175,7 @@
     },
     {
       "id": 7,
-      "src": "Melobit/images/Artist/25-band/25Band-Eshghe-Bedoone-Hashiye.webp",
+      "src": "/Melobit/images/Artist/25-band/25Band-Eshghe-Bedoone-Hashiye.webp",
       "musicName": "Eshghe Bedoone Hashiye",
       "playCount": "<200",
       "singger": "25 Band",
@@ -183,7 +183,7 @@
     },
     {
       "id": 8,
-      "src": "Melobit/images/Artist/babak-mafi/Delneshin.webp",
+      "src": "/Melobit/images/Artist/babak-mafi/Delneshin.webp",
       "musicName": "Delneshin",
       "playCount": "528.1K",
       "singger": "Babak Mafi",
@@ -191,7 +191,7 @@
     },
     {
       "id": 9,
-      "src": "Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
+      "src": "/Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
       "musicName": "Setare Baroon",
       "playCount": "735.9K",
       "singger": "Ali Montazeri",
@@ -199,7 +199,7 @@
     },
     {
       "id": 10,
-      "src": "Melobit/images/Artist/haamim/Haamim-Ki-Mishe-Man.webp",
+      "src": "/Melobit/images/Artist/haamim/Haamim-Ki-Mishe-Man.webp",
       "musicName": "Ki Mishe Man",
       "playCount": "2.4M",
       "singger": "Haamim",
@@ -207,7 +207,7 @@
     },
     {
       "id": 11,
-      "src": "Melobit/images/Artist/octave/Beza-Beram.webp",
+      "src": "/Melobit/images/Artist/octave/Beza-Beram.webp",
       "musicName": "Beza Beram",
       "playCount": "512.4K",
       "singger": "Octave",
@@ -215,7 +215,7 @@
     },
     {
       "id": 12,
-      "src": "Melobit/images/Artist/ragheb/Ragheb-To-Ra-Ke-Didam.webp",
+      "src": "/Melobit/images/Artist/ragheb/Ragheb-To-Ra-Ke-Didam.webp",
       "musicName": "To Ra Ke Didam",
       "playCount": "3.8M",
       "singger": "Ragheb",
@@ -223,7 +223,7 @@
     },
     {
       "id": 13,
-      "src": "Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
+      "src": "/Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
       "musicName": "Nemishnavam Harfato",
       "playCount": "488.1K",
       "singger": "Reza Shiri",
@@ -231,7 +231,7 @@
     },
     {
       "id": 14,
-      "src": "Melobit/images/Artist/amir-tataloo/Amir-Tataloo-Mano-Besaz-Az-Aval.webp",
+      "src": "/Melobit/images/Artist/amir-tataloo/Amir-Tataloo-Mano-Besaz-Az-Aval.webp",
       "musicName": "Mano Besaz Az Aval",
       "playCount": "2.2M",
       "singger": "Amir Tataloo",
@@ -239,7 +239,7 @@
     },
     {
       "id": 15,
-      "src": "Melobit/images/Artist/moein-z/Moein-Z-Che-Heyf.webp",
+      "src": "/Melobit/images/Artist/moein-z/Moein-Z-Che-Heyf.webp",
       "musicName": "Che Heyf",
       "playCount": "3.5M",
       "singger": "Moein Z",
@@ -247,7 +247,7 @@
     },
     {
       "id": 16,
-      "src": "Melobit/images/Artist/mohsen-chavoshi/Mohsen-Chavoshi-Yade-Cheshme-To-Mioftam.webp",
+      "src": "/Melobit/images/Artist/mohsen-chavoshi/Mohsen-Chavoshi-Yade-Cheshme-To-Mioftam.webp",
       "musicName": "Yade Cheshme To Mioftam",
       "playCount": "997.4K",
       "singger": "Mohsen Chavoshi",
@@ -255,7 +255,7 @@
     },
     {
       "id": 17,
-      "src": "Melobit/images/Artist/shadmehr-aghili/Shadmehr-Aghili-Batel.webp",
+      "src": "/Melobit/images/Artist/shadmehr-aghili/Shadmehr-Aghili-Batel.webp",
       "musicName": "Batel",
       "playCount": "3.2M",
       "singger": "Shadmehr Aghili",
@@ -263,7 +263,7 @@
     },
     {
       "id": 18,
-      "src": "Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
+      "src": "/Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
       "musicName": "Delam Darya Mikhad",
       "playCount": "1.1M",
       "singger": "Mohammad Lotfi",
@@ -271,7 +271,7 @@
     },
     {
       "id": 19,
-      "src": "Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
+      "src": "/Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
       "musicName": "Soltane Ghalbe Man",
       "playCount": "737.4K",
       "singger": "Ehaam",
@@ -279,7 +279,7 @@
     },
     {
       "id": 20,
-      "src": "Melobit/images/Artist/majid-razavi/Majid-Razavi-Gorgo-Mish.webp",
+      "src": "/Melobit/images/Artist/majid-razavi/Majid-Razavi-Gorgo-Mish.webp",
       "musicName": "Gorgo Mish",
       "playCount": "2.9M",
       "singger": "Majid Razavi",
@@ -290,7 +290,7 @@
   "weekTrending": [
     {
       "id": 1,
-      "src": "Melobit/images/Artist/bijan-yaar/Bijan-Yaar-Gheyrati.webp",
+      "src": "/Melobit/images/Artist/bijan-yaar/Bijan-Yaar-Gheyrati.webp",
       "musicName": "Gheyrati",
       "playCount": "897.9K",
       "singger": "Bijan Yaar",
@@ -299,7 +299,7 @@
     },
     {
       "id": 2,
-      "src": "Melobit/images/Artist/haamim/Haamim-Ki-Mishe-Man.webp",
+      "src": "/Melobit/images/Artist/haamim/Haamim-Ki-Mishe-Man.webp",
       "musicName": "Ki Mishe Man",
       "playCount": "2.4M",
       "singger": "Haamim",
@@ -308,7 +308,7 @@
     },
     {
       "id": 3,
-      "src": "Melobit/images/Artist/masoud-sadeghloo/Masoud-Sadeghloo-Seil.webp",
+      "src": "/Melobit/images/Artist/masoud-sadeghloo/Masoud-Sadeghloo-Seil.webp",
       "musicName": "Seil",
       "playCount": "<200",
       "singger": "Masoud Sadeghloo",
@@ -317,7 +317,7 @@
     },
     {
       "id": 4,
-      "src": "Melobit/images/Artist/babak-mafi/Delneshin.webp",
+      "src": "/Melobit/images/Artist/babak-mafi/Delneshin.webp",
       "musicName": "Delneshin",
       "playCount": "528.1K",
       "singger": "Babak Mafi",
@@ -326,7 +326,7 @@
     },
     {
       "id": 5,
-      "src": "Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
+      "src": "/Melobit/images/Artist/ali-montazeri/Setareh-Baroon.webp",
       "musicName": "Setareh Baroon",
       "playCount": "735.9K",
       "singger": "Ali Montazeri",
@@ -335,7 +335,7 @@
     },
     {
       "id": 6,
-      "src": "Melobit/images/Artist/ragheb/Ragheb-To-Ra-Ke-Didam.webp",
+      "src": "/Melobit/images/Artist/ragheb/Ragheb-To-Ra-Ke-Didam.webp",
       "musicName": "To Ra Ke Didam",
       "playCount": "3.8M",
       "singger": "Ragheb",
@@ -344,7 +344,7 @@
     },
     {
       "id": 7,
-      "src": "Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
+      "src": "/Melobit/images/Artist/masoud-sadeghloo/Esmet-Chiye.webp",
       "musicName": "Esmet Chiye",
       "playCount": "1.5M",
       "singger": "Masoud Sadeghloo",
@@ -353,7 +353,7 @@
     },
     {
       "id": 8,
-      "src": "Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
+      "src": "/Melobit/images/Artist/hamid-hiraad/Hamid-Hiraad-Nahayatan.webp",
       "musicName": "Nahayatan (Deli)",
       "subLink": "hamid-hiraad/nahayatan-Deli",
       "time": "01:45",
@@ -362,7 +362,7 @@
     },
     {
       "id": 9,
-      "src": "Melobit/images/Artist/shadmehr-aghili/Shadmehr-Aghili-Batel.webp",
+      "src": "/Melobit/images/Artist/shadmehr-aghili/Shadmehr-Aghili-Batel.webp",
       "musicName": "Batel",
       "playCount": "3.2M",
       "singger": "Shadmehr Aghili",
@@ -371,7 +371,7 @@
     },
     {
       "id": 10,
-      "src": "Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
+      "src": "/Melobit/images/Artist/reza-shiri/Nemishnavam-Harfato.webp",
       "musicName": "Nemishnavam Harfato",
       "playCount": "488.1K",
       "singger": "Reza Shiri",
@@ -380,7 +380,7 @@
     },
     {
       "id": 11,
-      "src": "Melobit/images/Artist/25-band/25Band-Eshghe-Bedoone-Hashiye.webp",
+      "src": "/Melobit/images/Artist/25-band/25Band-Eshghe-Bedoone-Hashiye.webp",
       "musicName": "Eshghe Bedoone Hashiye",
       "playCount": "<200",
       "singger": "25 Band",
@@ -389,7 +389,7 @@
     },
     {
       "id": 12,
-      "src": "Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
+      "src": "/Melobit/images/Artist/mohammad-lotfi/Delam-Darya-Mikhad.webp",
       "musicName": "Delam Darya Mikhad",
       "playCount": "1.1M",
       "singger": "Mohammad Lotfi",
@@ -398,7 +398,7 @@
     },
     {
       "id": 13,
-      "src": "Melobit/images/Artist/octave/Beza-Beram.webp",
+      "src": "/Melobit/images/Artist/octave/Beza-Beram.webp",
       "musicName": "Beza Beram",
       "playCount": "512.4K",
       "singger": "Octave",
@@ -407,7 +407,7 @@
     },
     {
       "id": 14,
-      "src": "Melobit/images/Artist/baravan-band/Barvan-Band-Tarkibe-Saami.webp",
+      "src": "/Melobit/images/Artist/baravan-band/Barvan-Band-Tarkibe-Saami.webp",
       "musicName": "Tarkibe Saami",
       "playCount": "780.3K",
       "singger": "Barvan Band",
@@ -416,7 +416,7 @@
     },
     {
       "id": 15,
-      "src": "Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
+      "src": "/Melobit/images/Artist/ehaam/Soltane-Ghalbe-Man-(Unplugged).webp",
       "musicName": "Soltane Ghalbe Man",
       "playCount": "737.4K",
       "singger": "Ehaam",
@@ -425,7 +425,7 @@
     },
     {
       "id": 16,
-      "src": "Melobit/images/Artist/amir-tataloo/Amir-Tataloo-Mano-Besaz-Az-Aval.webp",
+      "src": "/Melobit/images/Artist/amir-tataloo/Amir-Tataloo-Mano-Besaz-Az-Aval.webp",
       "musicName": "Mano Besaz Az Aval",
       "playCount": "2.2M",
       "singger": "Amir Tataloo",
@@ -434,7 +434,7 @@
     },
     {
       "id": 17,
-      "src": "Melobit/images/Artist/hosein-tohi/Tohi-Baby-Oonam-Dooste-Mane-(Ft-Amir-Tataloo-Reza-Pishro).webp",
+      "src": "/Melobit/images/Artist/hosein-tohi/Tohi-Baby-Oonam-Dooste-Mane-(Ft-Amir-Tataloo-Reza-Pishro).webp",
       "musicName": "Baby Oonam Dooste Mane (Ft Amir Tataloo & Reza Pishro)",
       "playCount": "497k ",
       "singger": "Tohi / Tataloo / Pishro",
@@ -443,7 +443,7 @@
     },
     {
       "id": 18,
-      "src": "Melobit/images/Artist/moein-z/Moein-Z-Che-Heyf.webp",
+      "src": "/Melobit/images/Artist/moein-z/Moein-Z-Che-Heyf.webp",
       "musicName": "Che Heyf",
       "playCount": "3.5M",
       "singger": "Moein Z",
@@ -452,7 +452,7 @@
     },
     {
       "id": 19,
-      "src": "Melobit/images/Artist/majid-razavi/Majid-Razavi-Gorgo-Mish.webp",
+      "src": "/Melobit/images/Artist/majid-razavi/Majid-Razavi-Gorgo-Mish.webp",
       "musicName": "Gorgo Mish",
       "playCount": "2.9M",
       "singger": "Majid Razavi",
@@ -461,7 +461,7 @@
     },
     {
       "id": 20,
-      "src": "Melobit/images/Artist/mohsen-chavoshi/Mohsen-Chavoshi-Yade-Cheshme-To-Mioftam.webp",
+      "src": "/Melobit/images/Artist/mohsen-chavoshi/Mohsen-Chavoshi-Yade-Cheshme-To-Mioftam.webp",
       "musicName": "Yade Cheshme To Mioftam",
       "playCount": "997.4K",
       "singger": "Mohsen Chavoshi",
@@ -474,42 +474,42 @@
     {
       "id": 1,
       "title": "Romance",
-      "backGround": "linear-gradient(to left, rgba(170, 7, 107, 0.5), rgba(97, 4, 95, 0.5)) , url(Melobit/images/Mood/romantic.webp)"
+      "backGround": "linear-gradient(to left, rgba(170, 7, 107, 0.5), rgba(97, 4, 95, 0.5)) , url(/Melobit/images/Mood/romantic.webp)"
     },
     {
       "id": 2,
       "title": "Dance",
-      "backGround": "linear-gradient(to left, rgba(2, 104, 161, 0.5), rgba(142, 213, 238, 0.5)), url(Melobit/images/Mood/dance.webp)"
+      "backGround": "linear-gradient(to left, rgba(2, 104, 161, 0.5), rgba(142, 213, 238, 0.5)), url(/Melobit/images/Mood/dance.webp)"
     },
     {
       "id": 3,
       "title": "Happy",
-      "backGround": "linear-gradient(to left, rgba(234, 148, 1, 0.5), rgba(253, 229, 2, 0.5)), url(Melobit/images/Mood/happy.webp)"
+      "backGround": "linear-gradient(to left, rgba(234, 148, 1, 0.5), rgba(253, 229, 2, 0.5)), url(/Melobit/images/Mood/happy.webp)"
     },
     {
       "id": 4,
       "title": "Sad",
-      "backGround": "linear-gradient(to left, rgba(187, 192, 202, 0.5), rgba(120, 132, 145, 0.5)), url(Melobit/images/Mood/sad.webp)"
+      "backGround": "linear-gradient(to left, rgba(187, 192, 202, 0.5), rgba(120, 132, 145, 0.5)), url(/Melobit/images/Mood/sad.webp)"
     },
     {
       "id": 5,
       "title": "Pop",
-      "backGround": "linear-gradient(to left, rgba(2, 104, 161, 0.5), rgba(142, 213, 238, 0.5)), url(Melobit/images/Mood/pop2.webp)"
+      "backGround": "linear-gradient(to left, rgba(2, 104, 161, 0.5), rgba(142, 213, 238, 0.5)), url(/Melobit/images/Mood/pop2.webp)"
     },
     {
       "id": 6,
       "title": "Hip Hop",
-      "backGround": "linear-gradient(to left, rgba(170, 7, 107, 0.5), rgba(97, 4, 95, 0.5)) , url(Melobit/images/Mood/rap2.webp)  "
+      "backGround": "linear-gradient(to left, rgba(170, 7, 107, 0.5), rgba(97, 4, 95, 0.5)) , url(/Melobit/images/Mood/rap2.webp)"
     },
     {
       "id": 7,
       "title": "Rock",
-      "backGround": "linear-gradient(to left, rgba(234, 148, 1, 0.5), rgba(253, 229, 2, 0.5)), url(Melobit/images/Mood/rock2.webp)"
+      "backGround": "linear-gradient(to left, rgba(234, 148, 1, 0.5), rgba(253, 229, 2, 0.5)), url(/Melobit/images/Mood/rock2.webp)"
     },
     {
       "id": 8,
       "title": "Classical",
-      "backGround": "linear-gradient(to left, rgba(187, 192, 202, 0.5), rgba(120, 132, 145, 0.5)), url(Melobit/images/Mood/classic2.webp)"
+      "backGround": "linear-gradient(to left, rgba(187, 192, 202, 0.5), rgba(120, 132, 145, 0.5)), url(/Melobit/images/Mood/classic2.webp)"
     }
   ]
 }

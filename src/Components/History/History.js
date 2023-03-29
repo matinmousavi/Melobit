@@ -21,8 +21,8 @@ export default function History() {
             <img src={song.src} alt="" />
           </div>
           <div className="music-description mt-2">
-            <Link to='/song/masoud-sadeghloo/seil/a1pwUk8' className='nmusic-name'>{song.musicName}</Link>  
-            <Link to='/artist/masoud-sadeghloo/S2xPWA' className='music-singger'>{song.singger}</Link>
+            <Link to='/Melobit/song/masoud-sadeghloo/seil/a1pwUk8' className='nmusic-name'>{song.musicName}</Link>  
+            <Link to='/Melobit/artist/masoud-sadeghloo/S2xPWA' className='music-singger'>{song.singger}</Link>
             <p>{song.playCount} Plays</p>          
           </div>
         </div>

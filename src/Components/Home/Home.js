@@ -1,5 +1,4 @@
 import "./Home.css";
-import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
 import NewSong from "./NewSong";
@@ -23,17 +22,12 @@ import {
 } from "../../hooks";
 
 export default function Home() {
-  const { data: singgerPics, isLoading: singgerPicsLoading } = useSinggerPics();
-  const { data: songInformations, isLoading: songInformationsLoading } =
-    useSongInformations();
-  const { data: albumInformations, isLoading: albumInformationsLoading } =
-    useAlbumInformations();
-  const { data: artistInformations, isLoading: artistInformationsLoading } =
-    useArtists();
-  const { data: todayTrending, isLoading: todayTrendingLoading } =
-    useTodayTrending();
-  const { data: weekTrending, isLoading: weekTrendingLoading } =
-    useWeekTrending();
+  const { data: singgerPics } = useSinggerPics();
+  const { data: songInformations } = useSongInformations();
+  const { data: albumInformations } = useAlbumInformations();
+  const { data: artistInformations } = useArtists();
+  const { data: todayTrending } = useTodayTrending();
+  const { data: weekTrending } = useWeekTrending();
 
   return (
     <>
@@ -41,9 +35,6 @@ export default function Home() {
         <Swiper loop={true} className="mySwiper">
           {singgerPics?.map((image) => (
             <SwiperSlide key={image.id}>
-              {console.log(image)}
-              {console.log(image.id)}
-              {console.log(image.src)}
               <img src={image.src} alt="aron afshar" />
             </SwiperSlide>
           ))}

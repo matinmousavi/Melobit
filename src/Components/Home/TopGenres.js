@@ -1,15 +1,14 @@
 import React from "react";
 import "./TopGenres.css";
 import { Link } from "react-router-dom";
-import { useSongStyle } from "../../hooks";
+import { songStyle } from "../../Data";
 
 export default function TopGenres() {
-  const { data: songStyle } = useSongStyle();
 
-  const moodSection = songStyle?.filter((song) => song.id > 4);
+  const moodSection = songStyle.filter((song) => song.id > 4);
   return (
     <>
-      {moodSection?.map((mood) => {
+      {moodSection.map((mood) => {
         return (
           <Link
             key={mood.id}

@@ -13,27 +13,20 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import {
-  useAlbumInformations,
-  useArtists,
-  useSinggerPics,
-  useSongInformations,
-  useTodayTrending,
-  useWeekTrending,
-} from "../../hooks";
+  albumInformations,
+  artistInformations,
+  singgerPics,
+  songInformations,
+  todayTrending,
+  weekTrending,
+} from "../../Data";
 
 export default function Home() {
-  const { data: singgerPics } = useSinggerPics();
-  const { data: songInformations } = useSongInformations();
-  const { data: albumInformations } = useAlbumInformations();
-  const { data: artistInformations } = useArtists();
-  const { data: todayTrending } = useTodayTrending();
-  const { data: weekTrending } = useWeekTrending();
-
   return (
     <>
       <section className="main-image">
         <Swiper loop={true} className="mySwiper">
-          {singgerPics?.map((image) => (
+          {singgerPics.map((image) => (
             <SwiperSlide key={image.id}>
               <img src={image.src} alt="aron afshar" />
             </SwiperSlide>
@@ -61,7 +54,7 @@ export default function Home() {
           Recent albums
         </Typography>
         <div className="recent-albums-content">
-          {albumInformations?.map((album) => {
+          {albumInformations.map((album) => {
             return <RecentAlbums key={album.id} {...album} />;
           })}
         </div>
@@ -71,7 +64,7 @@ export default function Home() {
           Week trending artists
         </Typography>
         <div className="Week-trending-artists-content">
-          {artistInformations?.map((artist) => {
+          {artistInformations.map((artist) => {
             return <TrendingArtists key={artist.id} {...artist} />;
           })}
         </div>
@@ -95,7 +88,7 @@ export default function Home() {
             loopFillGroupWithBlank={true}
             className="mySwiper"
           >
-            {todayTrending?.map((trending) => {
+            {todayTrending.map((trending) => {
               return (
                 <SwiperSlide key={trending.id}>
                   <TodayTrending {...trending} />
@@ -124,7 +117,7 @@ export default function Home() {
             loopFillGroupWithBlank={true}
             className="mySwiper"
           >
-            {weekTrending?.map((trending) => {
+            {weekTrending.map((trending) => {
               return (
                 <SwiperSlide key={trending.id}>
                   <TodayTrending {...trending} />

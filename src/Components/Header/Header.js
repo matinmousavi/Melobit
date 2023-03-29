@@ -9,10 +9,10 @@ export default function Header() {
     <header>
         <div className="nav-bar">
           <Col>
-          <Link to='/'>
+          <Link to='/Melobit'>
             <div className="nav-logo">
               <div className="navlogo-image">
-                <img src="images/logo.png" alt="" />
+                <img src="Melobit/images/logo.png" alt="" />
               </div>
               <div className="navlogo-title">
                 <h6 className="navlogo-title">Melobit</h6>
@@ -24,10 +24,10 @@ export default function Header() {
             <div className="nav-list">
                 <ul className="nav-list-ul">
                   {/* active class for blue border bottom */}
-                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/'>HOME</NavLink></li>
-                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/favorites'>FAVORITE SONGS</NavLink></li>
-                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/playlists'>PLAYLIST</NavLink></li>
-                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/history'>HISTORY</NavLink></li>
+                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/Melobit'>HOME</NavLink></li>
+                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/Melobit/favorites'>FAVORITE SONGS</NavLink></li>
+                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/Melobit/playlists'>PLAYLIST</NavLink></li>
+                    <li className="navlist-item"><NavLink className={(link) => link.isActive ? 'navlist-link actived-link' : 'navlist-link'} to='/Melobit/history'>HISTORY</NavLink></li>
                 </ul>
             </div>
           </Col>

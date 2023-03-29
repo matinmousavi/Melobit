@@ -5,7 +5,7 @@ import History from './Components/History/History'
 import Search from './Components/Search/Search'
 
 const routes = [
-    {path: '/Melobit' , element: <Home />},
+    {path: '/Melobit/' , element: <Home />},
     {path: '/Melobit/favorites' , element: <Favorites />},
     {path: '/Melobit/playlists' , element: <Playlists />},
     {path: '/Melobit/history' , element: <History />},

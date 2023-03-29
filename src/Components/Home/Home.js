@@ -1,15 +1,7 @@
 import "./Home.css";
-import React from "react";
+import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { IoIosArrowForward } from "react-icons/io";
-import {
-  songInformations,
-  albumInformations,
-  artistInformations,
-  singgerPics,
-  todayTrending,
-  weekTrending , 
-} from "./../../Datas";
 import NewSong from "./NewSong";
 import RecentAlbums from "./RecentAlbums";
 import TrendingArtists from "./TrendingArtists";
@@ -21,18 +13,37 @@ import "swiper/css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
+import {
+  useAlbumInformations,
+  useArtists,
+  useSinggerPics,
+  useSongInformations,
+  useTodayTrending,
+  useWeekTrending,
+} from "../../hooks";
 
 export default function Home() {
+  const { data: singgerPics, isLoading: singgerPicsLoading } = useSinggerPics();
+  const { data: songInformations, isLoading: songInformationsLoading } =
+    useSongInformations();
+  const { data: albumInformations, isLoading: albumInformationsLoading } =
+    useAlbumInformations();
+  const { data: artistInformations, isLoading: artistInformationsLoading } =
+    useArtists();
+  const { data: todayTrending, isLoading: todayTrendingLoading } =
+    useTodayTrending();
+  const { data: weekTrending, isLoading: weekTrendingLoading } =
+    useWeekTrending();
+
   return (
     <>
       <section className="main-image">
-        <Swiper
-          loop={true}
-          className="mySwiper"
-        >
-          {singgerPics.map((image) => (
+        <Swiper loop={true} className="mySwiper">
+          {singgerPics?.map((image) => (
             <SwiperSlide key={image.id}>
+              {console.log(image)}
+              {console.log(image.id)}
+              {console.log(image.src)}
               <img src={image.src} alt="aron afshar" />
             </SwiperSlide>
           ))}
@@ -49,7 +60,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="new-songs-content">
-          {songInformations.map((song) => {
+          {songInformations?.map((song) => {
             return <NewSong key={song.id} {...song} />;
           })}
         </div>
@@ -59,7 +70,7 @@ export default function Home() {
           Recent albums
         </Typography>
         <div className="recent-albums-content">
-          {albumInformations.map((album) => {
+          {albumInformations?.map((album) => {
             return <RecentAlbums key={album.id} {...album} />;
           })}
         </div>
@@ -69,77 +80,83 @@ export default function Home() {
           Week trending artists
         </Typography>
         <div className="Week-trending-artists-content">
-          {artistInformations.map((artist) => {
+          {artistInformations?.map((artist) => {
             return <TrendingArtists key={artist.id} {...artist} />;
           })}
         </div>
       </section>
       <section>
         <div className="new-songs-header">
-        <Typography variant="h2" className="section-header-child">
-          Today trending
-        </Typography>
-        <Link className="view-more" to="/songs/new">
+          <Typography variant="h2" className="section-header-child">
+            Today trending
+          </Typography>
+          <Link className="view-more" to="/songs/new">
             <span>VIEW MORE</span>
             <IoIosArrowForward />
           </Link>
         </div>
         <div className="Week-trending-artists-content">
-        <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
-        slidesPerGroup={4}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        
-        className="mySwiper"
-      >
-          {todayTrending.map((trending) => {
-            return <SwiperSlide key={trending.id}><TodayTrending {...trending} /></SwiperSlide>;
-          })}
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={30}
+            slidesPerGroup={4}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            className="mySwiper"
+          >
+            {todayTrending?.map((trending) => {
+              return (
+                <SwiperSlide key={trending.id}>
+                  <TodayTrending {...trending} />
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </section>
       <section>
-      <div className="new-songs-header">
-        <Typography variant="h2" className="section-header-child">
-        Week trending
-        </Typography>
-        <Link className="view-more" to="/songs/new">
+        <div className="new-songs-header">
+          <Typography variant="h2" className="section-header-child">
+            Week trending
+          </Typography>
+          <Link className="view-more" to="/songs/new">
             <span>VIEW MORE</span>
             <IoIosArrowForward />
           </Link>
-      </div>
+        </div>
         <div className="Week-trending-artists-content">
-        <Swiper
-        slidesPerView={4}
-        spaceBetween={30}
-        slidesPerGroup={4}
-        loop={true}
-        loopFillGroupWithBlank={true}
-        
-        className="mySwiper"
-      >
-          {weekTrending.map((trending) => {
-            return <SwiperSlide key={trending.id}><TodayTrending {...trending} /></SwiperSlide>;
-          })}
+          <Swiper
+            slidesPerView={4}
+            spaceBetween={30}
+            slidesPerGroup={4}
+            loop={true}
+            loopFillGroupWithBlank={true}
+            className="mySwiper"
+          >
+            {weekTrending?.map((trending) => {
+              return (
+                <SwiperSlide key={trending.id}>
+                  <TodayTrending {...trending} />
+                </SwiperSlide>
+              );
+            })}
           </Swiper>
         </div>
       </section>
       <section>
         <Typography variant="h2" className="section-header-child">
-        What's your mood?
+          What's your mood?
         </Typography>
         <div className="mood-content">
-               <MoodSection />
+          <MoodSection />
         </div>
       </section>
       <section>
         <Typography variant="h2" className="section-header-child">
-        Top genres
+          Top genres
         </Typography>
         <div className="mood-content">
-               <TopGenres />
+          <TopGenres />
         </div>
       </section>
     </>

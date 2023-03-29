@@ -5,12 +5,14 @@ import {BsFillPlayFill , BsFillShareFill} from 'react-icons/bs'
 import {GrFavorite} from 'react-icons/gr'
 import {MdDelete} from 'react-icons/md'
 import {FiMoreHorizontal} from 'react-icons/fi'
-import {weekTrending} from './../../Datas'
+import { useSongStyle } from '../../hooks'
 
 export default function History() {
+  const {data: weekTrending} = useSongStyle()
+
   return (
     <>
-    {weekTrending.map(song =>{
+    {weekTrending?.map(song =>{
       return(
         <div key={song.id} className='history-parent'>
           <section  className='history-content'>
